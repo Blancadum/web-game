@@ -68,11 +68,10 @@
         <div id="infoContainer">
           <div id="gameInfo">
             <h3 id="gameName">Player 1</h3>
-            <p id="levelDisplay">➮ Nivel:<span> 1</span></p>  
-            <p id="playerScore">➮ Puntuación:<span> 0</span></p>
-            <p id="playerLives">➮ Vidas:<span> 3</span></p>
-            <p id="timeDisplay">➮ Tiempo:<span> 00:00</span></p>
-            <div id="ranking"></div> <!--Ranking, dentro de la sección-->
+            <p id="levelDisplay">Nivel:<span> 1</span></p>  
+            <p id="playerScore">Puntuación:<span> 0</span></p>
+            <p id="playerLives">Vidas:<span> 3</span></p>
+            <p id="timeDisplay">Tiempo:<span> 00:00</span></p>
           </div> 
 
             <!-- Canvas del juego -->
@@ -83,11 +82,10 @@
           <!--Jugador 2 -->
           <div id="gameInfo">
             <h3 id="gameName">Player 2</h3>
-            <p id="levelDisplay2">➮ Nivel:<span> 1</span></p>  
-            <p id="playerScore2">➮ Puntuación:<span> 0</span></p>
-            <p id="playerLives2">➮ Vidas:<span> 3</span></p>
-            <p id="timeDisplay2">➮ Tiempo:<span> 00:00</span></p>
-            <div id="ranking2"></div> <!--Ranking, dentro de la sección-->
+            <p id="levelDisplay2">Nivel:<span> 1</span></p>  
+            <p id="playerScore2">Puntuación:<span> 0</span></p>
+            <p id="playerLives2">Vidas:<span> 3</span></p>
+            <p id="timeDisplay2">Tiempo:<span> 00:00</span></p>
           </div>
         </div>
         <div id="buttons">
@@ -108,7 +106,7 @@
 
           <div id="quienSoy">
             <h2>¿Quién soy?</h2>
-            <p>Soy Blanca, psicóloga de formación y aprendiz incansable. No tengo más que palabras de agradecimiento para todos mis compañeros, que han sido una inspiración constante. A los profes, Juli y Carlos, y a Cris y Pool. Por aguantarnos con vuestra paciencia infinita y por creer que podemos (cuando no siempre podemos jaja) ❤️ </p>
+            <p>Soy Blanca, psicóloga de formación y aprendiz incansable. No tengo más que palabras de agradecimiento para todos mis compañeros, que han sido una inspiración constante. A los profes, Juli y Carlos, y a Cris y Pool. Por aguantarnos con vuestra paciencia infinita y por creer que podemos (cuando no siempre podemos) ❤️ </p>
             <p> Un saludo especial a Estela, Ester, Irene y Saira, por su apoyo incondicional y por inspirarme. ❤️</p>
           </div>
         </div>
@@ -120,10 +118,11 @@
           <h2>Preguntas Frecuentes</h2>
             <!-- Pregunta 1 -->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeadingOne">
+            <h3 class="accordion-header" id="faqHeadingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
                   1. ¿Cómo juego a Pong?
               </button>
+            </h3>
           <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#accordionFAQ">
             <div class="accordion-body">
               Usa las teclas de flecha para mover la paleta y golpear la pelota. ¡No dejes que la pelota pase tu paleta si no quieres perder ocasión de ganar a la máquina. 
@@ -132,11 +131,11 @@
             </div>
             <!-- Pregunta 2 -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="faqHeadingTwo">
+              <h3 class="accordion-header" id="faqHeadingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
                   2. ¿Cuántos niveles tiene el juego?
                 </button>
-              </h2>
+              </h3>
               <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#accordionFAQ">
                 <div class="accordion-body">
                 El juego tiene múltiples niveles de dificultad. Tantos niveles como tiempo jugando seas capaz de aguantar. Y es que, a medida que avanzas, la velocidad de la pelota aumenta, ¡y los desafíos se vuelven más difíciles! 
@@ -145,11 +144,11 @@
             </div>
             <!-- Pregunta 3 -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="faqHeadingThree">
+              <h3 class="accordion-header" id="faqHeadingThree">
                 <button class="accordion-button collapsed show" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
                   3. ¿Puedo jugar en mi teléfono móvil?
                 </button>
-              </h2>
+              </h3>
               <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#accordionFAQ">
                 <div class="accordion-body">
                   Uy, de momento, el juego no está optimizado aún para dispositivos móviles y tablets. Aunque no descartamos implementar la opción en un futuro no muy lejano. Por el momento, el juego sólo está disponible para ordenador o tabletas conectadas a un teclado. El motivo es que las paletas se accionan con teclas y habría que valorar de qué manera podrían activarse interactuando de forma táctil con la pantalla. 
@@ -158,11 +157,11 @@
             </div>
             <!-- Pregunta 4 -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="faqHeadingFour">
+              <h3 class="accordion-header" id="faqHeadingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseOne">
                   4. ¿Cómo se juega al Pong?
                 </button>
-              </h2>
+              </h3>
               <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#accordionFAQ">
                 <div class="accordion-body">
                   Para jugar a Pong, utiliza las teclas de flecha para mover la paleta hacia arriba y hacia abajo. El objetivo es golpear la pelota para enviarla al lado contrario y evitar que pase tu paleta. Si logras que la pelota pase la paleta de tu oponente, ganas un punto.
@@ -172,7 +171,7 @@
 
             <!-- Pregunta 5 -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="faqHeadingFive">
+              <h3 class="accordion-header" id="faqHeadingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
                   5. ¿Quién creó el Pong?
                 </button>
@@ -186,32 +185,16 @@
 
             <!-- Pregunta 6 -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="faqHeadingSix">
+              <h3 class="accordion-header" id="faqHeadingSix">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
                   6. ¿De qué país es originario el Pong?
                 </button>
-              </h2>
+              </h3>
               <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#accordionFAQ">
                 <div class="accordion-body">
                   Pong es originario de Estados Unidos. Fue desarrollado y lanzado en California por la compañía Atari, que fue fundada en 1972 por Nolan Bushnell y Ted Dabney. Allan Alcorn, ingeniero de Atari, fue el encargado de crear Pong como uno de sus primeros proyectos. Aunque inicialmente fue un proyecto experimental, su éxito fue rotundo.
                   <br><br>
                   En su lanzamiento, Atari instaló una máquina de Pong en un bar de Sunnyvale, California. Sorprendentemente, la máquina se averió después de pocos días debido a que el cajón de monedas estaba tan lleno que no podía aceptar más monedas. Esta anécdota simboliza el increíble éxito que tuvo Pong desde el principio.
-                  <br><br>
-                  Pong fue uno de los primeros videojuegos en tener una gran distribución comercial en máquinas arcade, y su popularidad ayudó a cimentar las bases de la industria de los videojuegos. A medida que su éxito creció en Estados Unidos, también empezó a distribuirse en otros países, convirtiéndose en un fenómeno global. La sencillez y el atractivo de su jugabilidad hicieron que capturara la atención de miles de personas y diera pie a una revolución en el entretenimiento digital que impactó a la cultura popular a nivel mundial.
-                </div>
-              </div>
-            </div>
-
-            <!-- Pregunta 7 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="faqHeadingSeven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven" aria-expanded="false" aria-controls="faqCollapseFour">
-                7. ¿Pueden jugar a la vez dos jugadores?
-                </button>
-              </h2>
-              <div id="faqCollapseSeven" class="accordion-collapse collapse" aria-labelledby="faqHeadingSeven" data-bs-parent="#accordionFAQ">
-                <div class="accordion-body">
-                  Hay muchas versiones de Pong en las que pueden jugar dos jugadores al mismo tiempo (ya sea online o en el mismo dispositivo). En estos casos, cada jugador controla una paleta en lados opuestos de la pantalla, y el objetivo es evitar que la pelota pase su paleta mientras intentan que pase la paleta del oponente. Esto hace que el juego sea competitivo y divertido para jugar con amigos. Sin embargo, por el momento, esta versión aún no la hemos implementado en nuestro Pong... Estate atent@ a nuestra newsletter para enterarte de cuándo lo hacemos posible.
                 </div>
               </div>
             </div>
